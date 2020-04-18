@@ -13,7 +13,7 @@ jobs:
       - name: Environment Information
         run: npx envinfo
       - name: setup
-        run: cmake -E make_directory ${{runner.workspace}}/build
+        run: mkdir build
       - name: configure
         run: cmake .
         working-directory: ${{runner.workspace}}/build
