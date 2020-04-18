@@ -16,4 +16,4 @@ jobs:
         run: |
           cmake .
           cmake --build .
-          Debug/hello_cmake
+          ./Debug/hello_cmake
