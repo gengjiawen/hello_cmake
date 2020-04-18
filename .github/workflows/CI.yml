@@ -17,4 +17,4 @@ jobs:
       - name: Build and Test
         run: |
           cmake --build ./build
-          ./build/Debug/hello_cmake
+          ll ./build -R
