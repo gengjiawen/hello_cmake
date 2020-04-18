@@ -15,7 +15,7 @@ jobs:
       - name: setup
         run: mkdir build
       - name: configure
-        run: cmake .
+        run: cmake ..
         working-directory: ${{runner.workspace}}/build
       - name: Build and Test
         run: |
