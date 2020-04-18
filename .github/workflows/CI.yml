@@ -19,4 +19,4 @@ jobs:
           cmake --build ./build
       - name: Test
         run: |
-          npx tree-cli ./build
+          npx tree-cli -l 3 ./build
